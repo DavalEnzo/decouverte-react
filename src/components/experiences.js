@@ -1,4 +1,4 @@
-const ExperiencesDiplomes = () => {
+const Experiences = () => {
     const experiences = [
         {
             id: 1,
@@ -12,28 +12,9 @@ const ExperiencesDiplomes = () => {
         }
     ]
 
-    const diplomes = [
-        {
-            id: 1,
-            nom: "Développeur Web",
-            date: "2021-2022",
-        },
-        {
-            id: 2,
-            nom: "Bachelor Développeur FullSteack",
-            date: "2022-2023",
-        }
-    ]
-
     const experiencesList = experiences.map((experience) => {
         return (
             <p key={experience.id}> - {experience.date} : {experience.nom}</p>
-        )
-    })
-
-    const diplomesList = diplomes.map((diplome) => {
-        return (
-            <p key={diplome.id}> - {diplome.date} : {diplome.nom}</p>
         )
     })
 
@@ -41,9 +22,7 @@ const ExperiencesDiplomes = () => {
         <>
             <section className="title">Expériences:</section>
             {experiencesList}
-            <section className="title">Diplomes</section>
-            {diplomesList}
         </>
     )
 }
-export default ExperiencesDiplomes;
+export default Experiences;

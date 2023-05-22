@@ -3,7 +3,8 @@ import "./App.css"
 import Layout from "./components/layout/layout";
 import Projet from "./components/projet";
 import Competences from "./components/competences";
-import ExperiencesDiplomes from "./components/experiencesDiplomes";
+import Experiences from "./components/experiences";
+import Diplomes from "./components/diplomes";
 
 function App() {
     return (
@@ -38,7 +39,8 @@ function App() {
                         </ul>
                     </section>
 
-                    <ExperiencesDiplomes></ExperiencesDiplomes>
+                    <Experiences></Experiences>
+                    <Diplomes></Diplomes>
 
                     <section className="noList">Centre d'intérêt: Jeux Vidéo, Cinéma et Séries</section>
 
