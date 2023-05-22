@@ -82,3 +82,29 @@
     -webkit-animation: wave-text 1s ease-in-out infinite;
     animation: wave-text 1s ease-in-out infinite;
 }
+
+section {
+    margin-bottom: 2%;
+    margin-top: 4%;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 20px;
+    text-decoration: underline;
+}
+
+.section-lien {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-child {
+    display: flex;
+    align-items: center;
+}
+
+section.noList {
+    text-decoration: none;
+    align-items: center;
+}
