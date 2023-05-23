@@ -20,9 +20,9 @@ const Layout = ({children}) => {
             Learn React
         </a>
         </header>
-        <main>
-            <p>{children}</p>
-        </main>
+            <main>
+                <p>{children}</p>
+            </main>
         <footer>
             Enzo Daval 2023
         </footer>

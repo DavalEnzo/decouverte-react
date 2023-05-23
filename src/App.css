@@ -15,7 +15,7 @@
 }
 
 .App-header {
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,10 +91,16 @@ section {
     text-decoration: underline;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.superprof.fr/blog/wp-content/uploads/2018/06/choisir-fixe-portable.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    height: 100%;
     backdrop-filter: blur(5px);
     background-position: center;
     background-attachment: fixed;
@@ -115,4 +121,49 @@ body {
 section.noList {
     text-decoration: none;
     align-items: center;
+}
+
+.error {
+    border-radius: 10px;
+    border: white;
+    padding: 2px 20px 20px 20px;
+    background-color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-content {
+    display: flex;
+    border-radius: 10px;
+    border: white;
+    padding: 2px 20px 20px 20px;
+    background-color: white;
+    flex-direction: column;
+    gap: 5px;
+    width: 20%;
+    align-items: center;
+    box-shadow: 26px 1px 11px -3px rgba(0,0,0,0.5);
+}
+
+.button {
+    border-radius: 10px;
+    border: white;
+    padding: 9px;
+    background-color: lightblue;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black!important;
+}
+
+.button:hover {
+    background-color: #97d0e5;
 }
