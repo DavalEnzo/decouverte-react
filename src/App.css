@@ -136,6 +136,7 @@ section.noList {
     gap: 3%;
     justify-content: center;
     margin: auto;
+    color: white;
 }
 
 .card-content {
@@ -156,7 +157,7 @@ section.noList {
     border: white;
     padding: 9px;
     background-color: lightblue;
-    width: 50%;
+    max-width: 50%;
     height: 100%;
     font-size: 20px;
     text-decoration: none;

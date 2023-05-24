@@ -30,8 +30,8 @@ const selectedCompetence = (id) => {
     } else {
         return (
             <>
-                <p>Compétence: {competence.nom}</p>
-                <p>Niveau: {competence.niveau}</p>
+                <p style={{color: "black"}}>Compétence: {competence.nom}</p>
+                <p style={{color: "black"}}>Niveau: {competence.niveau}</p>
             < />
         )
     }
@@ -40,7 +40,7 @@ const selectedCompetence = (id) => {
 const getCompetenceList = competenceList.map((competence) => {
     return (
         <div className="card-content" key={competence.id}>
-            <h2>{competence.nom}</h2>
+            <h2 style={{color: "black"}}>{competence.nom}</h2>
             <Link className="button" to={`${competence.id}`}>Plus de détails</Link>
         </div>
     )
